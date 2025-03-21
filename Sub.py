@@ -3,14 +3,14 @@ from aiogram import Bot, Dispatcher, executor, types
 import pandas as pd
 import fileinput
 
-API_TOKEN = '5475451322:AAHaT-HUSMWrnzWNcX0ZFkVzs7uBNDq-FqE'
-open_weather_token = "a86dfb1d35333a303c97047c19e2ef5c"
+API_TOKEN = ''
+open_weather_token = ""
 bot = Bot(token=API_TOKEN)
 dp = Dispatcher(bot)
 
-sales1 = pd.read_excel('C:/Del/Students.xlsx', sheet_name = 'Лист1')
-sales2 = pd.read_excel('C:/Del/Prep.xlsx', sheet_name = 'Лист1')
-sales3 = pd.read_excel('C:/Pt_bot_files/cities/TCity.xlsx', sheet_name = 'Лист1')
+sales1 = pd.read_excel('', sheet_name = 'Лист1')
+sales2 = pd.read_excel('', sheet_name = 'Лист1')
+sales3 = pd.read_excel('', sheet_name = 'Лист1')
 
 name=''
 
